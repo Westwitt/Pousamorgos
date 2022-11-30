@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:Verdana;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+header{
+    align-items: center;
+    height: 13%;
+    width: 100%;
+    background-color: #baf0ff;
+    font-size: 100%
+}
+header .row{
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+.logo{
+    height: 100%;
+}
+.row img{
+    height: 100%;
+}
+.nav-item{
+    padding-top: 3%;
+    padding-left: 3%;
+}
+.nav-item a{
+    color: #58565a;
+}
+.nav-item a:hover{
+    color: black;
+}
+.pagNome{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #636aff;
+    font-size: 30px;
+    font-family: Georgia;
+    
+}
+.galeria{
+    display: grid;
+    justify-content: center;
+}
+.galeria .row{
+    margin-top: 30px;
+}
+.lightbox{
+    margin: 0px 50px;
+}
+.lightbox img{
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;  
+}
+.destaque{
+    height: 40%;
+}
+.carrossel{
+    text-align: center;
+    margin: 20px auto;
+    width: 600px;
+}
+.destaque .card{
+    background-color: #CAEAFF;
+}
+.destaque .card h5{
+    font-weight: bolder;
+    font-size: 150%;
+    text-align: center;
+    color: #2e3885;
+}
+.destaque .card p{
+    font-size: 150%;
+    text-align: center;
+}
+.suites{
+    height: 40%;
+}
+.suites .card-title{
+    font-weight: bolder;
+    font-size: 120%;
+}
+.suites .card{
+    margin: 10% auto;
+    text-align: center;
+}
+.suites .card a{
+    margin-top: 4%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: #2e3885;
+    height: 7%;
+    width: 100%
+}
+.footerTexto{
+    padding-top: 4%;
+    font-size: 100%;
+}

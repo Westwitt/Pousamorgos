@@ -1,0 +1,15 @@
+.formulario{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    margin-bottom: 100px;
+    background-color: #dff9ff;
+    border-radius: 30px;
+    font-size: 150%;
+}
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+input[type=radio] {
+    transform: scale(1.5);
+}
